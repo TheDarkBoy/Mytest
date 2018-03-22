@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TrainBooking - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP168.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TrainBooking.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++课程设计\1605110247何凯川\TrainBooking\BuyTicket.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\change.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\dataStatistics.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\DataUtils.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\menuItem.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\Train.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\TrainBooking.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\User.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\UserDataUtils.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\UserMenuItem.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\UserTicketIformation.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp"
+"E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP168.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP169.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TrainBooking.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++课程设计\1605110247何凯川\TrainBooking\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP169.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP16A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/TrainBooking.pdb" /debug /machine:I386 /out:"Debug/TrainBooking.exe" /pdbtype:sept 
+".\Debug\BuyTicket.obj"
+".\Debug\change.obj"
+".\Debug\dataStatistics.obj"
+".\Debug\DataUtils.obj"
+".\Debug\menuItem.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Train.obj"
+".\Debug\TrainBooking.obj"
+".\Debug\User.obj"
+".\Debug\UserDataUtils.obj"
+".\Debug\UserMenuItem.obj"
+".\Debug\UserTicketIformation.obj"
+".\Debug\UserUtils.obj"
+".\Debug\Utils.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP16A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BuyTicket.cpp
+change.cpp
+dataStatistics.cpp
+DataUtils.cpp
+E:\C++课程设计\1605110247何凯川\TrainBooking\DataUtils.cpp(55) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\DataUtils.cpp(55) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+menuItem.cpp
+Train.cpp
+TrainBooking.cpp
+User.cpp
+UserDataUtils.cpp
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserDataUtils.cpp(31) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserDataUtils.cpp(31) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+UserMenuItem.cpp
+UserTicketIformation.cpp
+UserUtils.cpp
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+Utils.cpp
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+Generating Code...
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: '__ehhandler$?splitString@Utils@buyticket@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: '__unwindfunclet$?splitString@Utils@buyticket@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$3' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: '__unwindfunclet$?splitString@Utils@buyticket@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$2' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: '__unwindfunclet$?splitString@Utils@buyticket@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$1' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\Utils.cpp(34) : warning C4786: '__unwindfunclet$?splitString@Utils@buyticket@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$0' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: '__ehhandler$?splitString@Utils@login@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: '__unwindfunclet$?splitString@Utils@login@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$3' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: '__unwindfunclet$?splitString@Utils@login@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$2' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: '__unwindfunclet$?splitString@Utils@login@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$1' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\UserUtils.cpp(77) : warning C4786: '__unwindfunclet$?splitString@Utils@login@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+E:\C++课程设计\1605110247何凯川\TrainBooking\BuyTicket.cpp(118) : warning C4715: 'buyticket::BuyTicket::choiceTicket' : not all control paths return a value
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/TrainBooking.ilk"; linking nonincrementally
+
+
+
+<h3>Results</h3>
+TrainBooking.exe - 0 error(s), 24 warning(s)
+</pre>
+</body>
+</html>
